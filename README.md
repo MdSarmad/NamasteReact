@@ -29,3 +29,18 @@ package.json file gives us the information about what are the packages installed
 
 # Why should we not modify package-lock.json file.
 package-lock.json file stores the information about the exact version of package downloaded and dependencies required to run the package. Changes in package-lock.json file may lead unexpected results.
+
+# What is node_modules? Is it a good idea to push that on git?
+node_modules is a directory to track packages which is installed locally via package.json. We should not push node_modules on git since it is larger in size and can be generated from package.json file.
+
+# What is the dist folder?
+dist folder contains transpiled code of the built files and folders that can be hoisted on the server.
+
+# What is browserlists
+
+# What is <noscript> tag in the index.html of create-react-app?
+<noscript> in index.html tag is used to display it's content when javascript is not enabled in the browser. since React requires javascript enabled in browser.
+
+
+# What is the role of manifest.json file in create-react-app?
+manifest.json file gives us the information/bio-data regarding create-react-app.
