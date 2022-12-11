@@ -3,6 +3,7 @@ import boy from '../../asset/boy.svg';
 import girl from '../../asset/girl.svg';
 
 const InfoCard = ({data}) => {
+  console.log(boy);
   return (
     <div className='info-card-body'>
       <img src={data?.gender === "Male" ? boy : girl} alt="" />
