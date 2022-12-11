@@ -1,5 +1,4 @@
-# ASSIGNMENT 5
+# ASSIGNMENT 6
 
 ## Let's get Hooked
-1) Add Search Functionality in your same team application
-2) Make your app beautiful
+1) In Team-App, data should com from Github API, collect your team's github api and fetch the data in your app.
